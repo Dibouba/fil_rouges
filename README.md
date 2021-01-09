@@ -5,6 +5,8 @@
      Développer des pages web statiques (HTML/CSS)
      
 Réaliser une page d'accueil pour votre projet. Vous devez réaliser l'intégration HTML/CSS de votre page d'accueil à partir des éléments qui vous sont fournis dans la charte graphique. Pendant 10 jours
+
+
 Front-office : contient la partie publique du site (dont la page d'accueil) et un accès à la liste de produits et accès au formulaire d'inscription. Vous devez intégrer au mieux les éléments de la charte graphique. Pendant 10 jours
 
      Intégrer des scripts clients (Javascript)
@@ -16,13 +18,21 @@ Front-office : contient la partie publique du site (dont la page d'accueil) et u
       Mettre en place une base de données   
       
   Les descriptions devront être claires et réalistes. 1 jour
+  
+  
   Les descriptions devront être claires et réalistes. 1 jour
   
       Créer la base de donnér 
       
   Réaliser le MCD du site e-commerce en tenant compte de toutes les contraintes fonctionnelles énoncées dans le cahier des charges (partie L'existant notamment). 1jour
+  
+  
   Ecrivez le script de création de la base de données (vous pouvez utiliser le script de génération de la base précédemment obtenu). 1 jour
+  
+  
   Ce script doit prendre en compte l'ensemble des tables du schéma physique, les clés primaires et étrangères, les index et les droits d'accès. 1 jour
+  
+  
   Pour la sécurité, vous devez prévoir plusieurs profils de connexion et décliner les autorisations nécessaires. 2 jour
      
     Profil visiteur : lecture sur le catalogue
@@ -31,6 +41,8 @@ Front-office : contient la partie publique du site (dont la page d'accueil) et u
     Profil administrateur (ou développeur) : comme gestion + création et suppression d'objet
     
   Alimenter la base de tests : créez un script d'insertion des données dans l'ensemble des tables de la base de données. Ces données seront compréhensibles par un utilisateur    de base et devront donc avoir des valeurs en cohérence avec le domaine fonctionnel. 2 jours
+  
+  
   Décrivez les procédures que vous mettez en place pour assurer les sauvegardes de la base. 2jours
   Testez une restauration. 1 jour
   
@@ -39,15 +51,22 @@ Front-office : contient la partie publique du site (dont la page d'accueil) et u
      Formaliser des requêtes à l'aide du langage SQL
      
   Pour chacune des interrogations demandées (voir cahier des charges), créez un script contenant la ou les requêtes nécessaires. 2 jours
+  
+  
   Exportez les tables principales (entité) vers des tableaux d'un tableur de votre choix ainsi que le contenu du résultat de vos requêtes. 3 jours
   
      Certaines interrogations sont à prévoir :
    
 chiffre d'affaires hors taxes généré pour l'ensemble et par fournisseur
+
 liste des produits commandés pour une année sélectionnée (référence et nom du produit, quantité commandée, fournisseur)
+
 liste des commandes pour un client (date de commande, référence client, montant, état de la commande)
+
 répartition du chiffre d'affaires hors taxes par type de client
+
 lister les commandes en cours de livraison.
+
      Je vais essayer de le faire plus ou moins 1 semaines
 
      Programmer des procédures stockées sur le SGBD
@@ -80,7 +99,11 @@ lister les commandes en cours de livraison.
     Développer des composants web d'accès aux données
     
   Vous devez mettre en œuvre la gestion CRUD sur une table de votre choix. Ces pages devront être accessibles à partir de votre menu d'accueil. 1 jour
+  
+  
   Votre interface doit permettre d'afficher la liste des éléments, l'ajout, la modification et la suppression. 1 jour
+  
+  
   Vous devez utiliser une architecture MVC pour réaliser ce travail. 1 jour 
   
   
