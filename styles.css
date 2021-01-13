@@ -1,0 +1,291 @@
+
+/****** le header ******/
+/*Général*/
+a
+{
+    text-decoration: none; 
+    
+}
+/*les 3 bandes et le logo*/
+.bande
+{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.logo
+{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+/*le panier et le drapeau*/
+.panier
+{
+    position: absolute;
+    margin-left: 995px;
+    margin-top: 30px;
+}
+.pays
+{
+    position: absolute;
+    margin-left: 1110px;
+    margin-top: 35px;
+}
+/*navigateur 1*/
+.nav1 ul 
+{
+    position: absolute;
+    display: inline-flex; 
+    text-align: center;
+    list-style: none;
+    margin-left: 730px;
+    margin-top: 40px;
+    font-family: sans-serif;   
+}
+.nav1 li
+{
+    margin-right: 50px;
+}
+.nav1 a
+{
+    color:rgb(11, 11, 77);
+        
+}
+/*navigateur 2*/
+.nav2 ul
+{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 440px;
+    font-weight: bold;
+    font-size: 25px; 
+    list-style: none;
+    font-family: sans-serif;
+    display: inline-flex;
+}
+.nav2 a
+{
+    color: white;
+}
+.nav2 li
+{
+    margin-right: 90px;
+}
+/*navigateur 3*/
+.nav3 ul
+{
+    position: absolute;
+    display: inline-flex;
+    margin-top: 150px;
+    margin-left: 350px;
+    font-family: sans-serif;
+    list-style: none;
+    /* font-size: 18px; */
+}
+.nav3 a
+{
+    color: white;
+}
+.nav3 li
+{
+    margin-right: 35px;
+} 
+/*background du body*/
+body
+{
+    background: url("BODY/BACKGROUND/background village.png");
+                  
+} 
+/*background du milieu*/
+.milieu
+{
+    background: url("BODY/BACKGROUND/bande milieu.png") no-repeat;
+    position: relative;
+    width: 1235px;
+    height: 1870px;
+}
+/*image de pub de guitare*/
+.pub_guit
+{
+    height: 550px;
+    width: 870px;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 50px;
+    background: url("BODY/pub guitare.png") no-repeat;
+}
+/*les avantages des achats*/
+.ban_droit
+{
+    height: 550px;
+    width: 220px;
+    margin-top: 260px;
+    margin-left: 940px;
+    position: absolute;
+    background: url("BODY/banniere droite prix.png") no-repeat;
+} 
+/*lien d'information sur le pub*/
+.pub
+{
+    position: absolute;
+    height: 70px;
+    width: 50px;
+    margin-top: 280px;
+    margin-left: 70px;
+    background: url("BODY/pub guitare bouton blanc.png") no-repeat;
+}
+/*la securité de paiement, service et garantie*/
+.centre
+{
+    position: absolute;
+    height: 230px;
+    width: 1299px;
+    margin-top: 820px;
+    margin-left: 20px;
+    background: url("BODY/banniere centre 4 pictos.png") no-repeat;
+}
+/*tag de categorie*/
+.cat
+{
+    position: absolute;
+    margin-top: 1020px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color:rgb(11, 11, 77);
+}
+/* liste des categories*/
+.cat_guit
+{
+    background: url("BODY/CATEGORIES guitare.png") no-repeat;
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    margin-top: 1088px;
+    margin-left: 20px;
+}
+.cat_bat
+{
+    background: url("BODY/CATEGORIES batterie.png") no-repeat;
+    position: absolute;
+    height: 195px;
+    width: 310px;
+    margin-top: 1088px;
+    margin-left: 319px;
+}
+.cat_piano
+{
+    background:url("BODY/CATEGORIES piano.png") no-repeat;
+    position: absolute;
+    height: 195px;
+    width: 310px;
+    margin-top: 1088px;
+    margin-left: 616px;
+}
+.cat_micro
+{
+    background: url("BODY/CATEGORIES micro.png") no-repeat;
+    position: absolute;
+    height: 195px;
+    width: 301px;
+    margin-top: 1088px;
+    margin-left: 914px;
+}
+.cat_sono
+{
+    background: url("BODY/CATEGORIES sono.png") no-repeat;
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    margin-top: 1270px;
+    margin-left: 20px;
+}
+.cat_case
+{
+    background: url("BODY/CATEGORIES\ cases.png") no-repeat;
+    position: absolute;
+    height: 195px;
+    width: 310px;
+    margin-top: 1270px;
+    margin-left:319px;
+}
+.cat_cable
+{
+    background: url("body/CATEGORIES cable.png") no-repeat;
+    position: absolute;
+    height: 195px;
+    width: 310px;
+    margin-top: 1270px;
+    margin-left:616px;
+}
+.cat_saxo
+{
+    background: url("body/CATEGORIES saxo.png") no-repeat;
+    position: absolute;
+    height: 250px;
+    width: 301px;
+    margin-top: 1270px;
+    margin-left: 914px;
+}
+/* information des ventes et partenaires*/
+.info 
+{
+    position: absolute;
+    color: rgb(11, 11, 77); 
+    display: inline-flex;
+    margin-top: 1455px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 40px;
+    
+}   
+   
+.info p
+{
+    margin-right: 377px;
+    
+} 
+.top_guit
+{
+    background: url("body/TOP VENTES guitare.png") no-repeat;
+    position: absolute;
+    margin-top: 1530px;
+    margin-left: 40px;
+}
+.top_saxon
+{
+    background: url("body/TOP VENTES saxo.png") no-repeat;
+    position: absolute;
+    margin-top: 1530px;
+    margin-left: 240px;
+}
+.top_piano
+{
+    background: url("body/TOP VENTES piano.png") no-repeat;
+    position: absolute;
+    margin-top: 1530px;
+    margin-left: 440px;
+}
+.partner
+{
+    background: url("body/partenaires 4 logos.png") no-repeat;
+    position: absolute;
+    margin-top: 1530px;
+    margin-left: 670px;
+}
+.footer
+{
+    background: url("FOOTER/footer SIMPLE.png") no-repeat;
+    position: absolute;
+    width: 1250px;
+    height: 763px;
+    margin-top: 1855px;
+    
+}
+
+
+
+

@@ -1,0 +1,237 @@
+/****** le header ******/
+/*Général*/
+a
+{
+    text-decoration: none; 
+    
+}
+/*les 3 bandes et le logo*/
+.bande
+{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.logo
+{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+/*le panier et le drapeau*/
+.panier
+{
+    position: absolute;
+    margin-left: 995px;
+    margin-top: 30px;
+}
+.pays
+{
+    position: absolute;
+    margin-left: 1110px;
+    margin-top: 35px;
+}
+/*navigateur 1*/
+.nav1 ul 
+{
+    position: absolute;
+    display: inline-flex; 
+    text-align: center;
+    list-style: none;
+    margin-left: 730px;
+    margin-top: 40px;
+    font-family: sans-serif;   
+}
+.nav1 li
+{
+    margin-right: 50px;
+}
+.nav1 a
+{
+    color:rgb(11, 11, 77);
+        
+}
+/*navigateur 2*/
+.nav2 ul
+{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 440px;
+    font-weight: bold;
+    font-size: 25px; 
+    list-style: none;
+    font-family: sans-serif;
+    display: inline-flex;
+}
+.nav2 a
+{
+    color: white;
+}
+.nav2 li
+{
+    margin-right: 90px;
+}
+/*navigateur 3*/
+.nav3 ul
+{
+    position: absolute;
+    display: inline-flex;
+    margin-top: 150px;
+    margin-left: 350px;
+    font-family: sans-serif;
+    list-style: none;
+    /* font-size: 18px; */
+}
+.nav3 a
+{
+    color: white;
+}
+.nav3 li
+{
+    margin-right: 35px;
+} 
+/*background du body*/
+body
+{
+    background: url("BODY/BACKGROUND/background village.png");
+                  
+} 
+/*background du milieu*/
+.milieu
+{
+    background: url("BODY/BACKGROUND/bande milieu.png") no-repeat;
+    position: relative;
+    width: 1235px;
+    height: 1870px;
+}
+.id
+{
+    position: absolute;
+    color:rgb(11, 11, 77);
+    margin-top: 200px;
+    margin-left: 450px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.mail
+{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 140px;
+    color:gray;
+    font-family: sans-serif;
+}
+
+
+@media screen and (max-width:768px)
+{
+    /****** le header ******/
+
+/*les 3 bandes et le logo*/
+.bande
+{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: none;
+}
+.logo
+{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+/*le panier et le drapeau*/
+.panier
+{
+    position: absolute;
+    margin-left: 24.375rem;
+    margin-top: 18.125rem;
+    display: block;
+}
+.pays
+{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 15px;
+    display: none;
+}
+/*navigateur 1*/
+.nav1 ul 
+{
+    position: absolute;
+    /* text-align: center; */
+    list-style: none;
+    margin-left: 0.313rem;
+    margin-top: 18.75rem;
+    font-family: sans-serif;   
+    
+}
+.nav1 li
+{
+    margin-right: 0.938rem;
+} 
+.nav1 a
+{
+    color:rgb(11, 11, 77);
+        
+}
+/*navigateur 2*/
+.nav2 ul
+{
+    position: absolute;
+    margin-top: 21.875rem;
+    margin-left: 0.188rem;
+    font-weight: bold;
+    font-size: 1.563; 
+    list-style: none;
+    font-family: sans-serif;
+
+}
+.nav2 a
+{
+   color:rgb(11, 11, 77);
+}
+.nav2 li
+{
+    margin-right: 1.25rem;
+}
+/*navigateur 3*/
+.nav3 ul
+{
+    position: absolute;
+    /* display: inline-flex; */
+    margin-top: 400px;
+    margin-left: 0.188rem;
+    font-family: sans-serif;
+    list-style: none;
+    /* font-size: 18px; */
+}
+.nav3 a
+{
+    color:rgb(11, 11, 77);
+}
+.nav3 li
+{
+    margin-right: 10px;
+} 
+/*background du body*/
+body
+{
+    background: url("BODY/BACKGROUND/background village.png");
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+                  
+} 
+/*background du milieu*/
+.milieu
+{
+    background: url("BODY/BACKGROUND/bande milieu.png") no-repeat;
+    position: absolute;
+    width: 50rem;
+    height: 2070rem; 
+    background-size: cover; 
+    background-position: center;
+}
+}
