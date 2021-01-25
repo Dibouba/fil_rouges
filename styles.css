@@ -224,10 +224,13 @@ body
 {
     background: url("body/CATEGORIES saxo.png") no-repeat;
     position: absolute;
-    height: 250px;
-    width: 301px;
     margin-top: 1270px;
     margin-left: 914px;
+}
+#saxo
+{
+    width: 298px;
+    height: 180px;
 }
 /* information des ventes et partenaires*/
 .info 
