@@ -22,7 +22,7 @@ create table `departements`(
 /*création de la table pays*/
 
 create table `pays`(
-    `pays_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+    `pays_id` char(2) UNSIGNED NOT NULL AUTO_INCREMENT,
     `pays_nom` varchar(50) NOT NULL,
     PRIMARY KEY(`pays_id`)
 );
@@ -143,4 +143,5 @@ create table `ligne_commande`(
     FOREIGN KEY (`lig_com_id`) REFERENCES `commnades` (`com_id`),
     FOREIGN KEY (`lig_pro_id`) REFERENCES `produits` (`pro_id`)
 );
+
 

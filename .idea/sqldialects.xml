@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$USER_HOME$/Downloads/afpa_gescom_2020_08_18.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/script_insert_village_green.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/village_green.sql" dialect="GenericSQL" />
   </component>
 </project>
