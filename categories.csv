@@ -1,0 +1,28 @@
+"cat_id";"cat_nom";"cat_parent_id"
+"1";"Guitare";NULL
+"2";"Sono";NULL
+"3";"Piano";NULL
+"4";"Batterie";NULL
+"5";"Micro";NULL
+"6";"Saxo";NULL
+"7";"Cable";NULL
+"8";"Cases";NULL
+"9";"acoustique";"1"
+"10";"classique";"1"
+"11";"éléctrique";"1"
+"12";"Amplificateur";"2"
+"13";"sonorisation portable";"2"
+"14";"lecteur audio";"2"
+"15";"acoustique";"4"
+"16";"éléctrique";"4"
+"17";"piano à queue";"3"
+"18";"piano éléctrique";"3"
+"19";"sans-fil";"5"
+"20";"micro_usb";"5"
+"21";"saxo_soprano";"6"
+"22";"saxo-baryton";"6"
+"23";"cable haut-parleur";"7"
+"24";"cable à métre";"7"
+"25";"case platine";"8"
+"26";"case contôleur dj";"8"
+"27";"case éclairage";"8"

@@ -1,3 +1,6 @@
-/*la nouvelle ligne de la table commande*/
-insert into `commandes`(`com_date`,`com_date_paie`,`com_livr`,`com_exp`,`com_cli_id`)
-values('2020-06-28','2020-06-28','2020-06-29','2020-06-30',10);
+/*le chiffre d'affaire généré par fournisseur*/
+SELECT fou_nom AS 'Fournisseurs', SUM(pro_pru*pro_stk)AS "chiffre d\'affaire"
+FROM produits
+         JOIN fournisseurs
+              ON produits.pro_fou_id=fournisseurs.fou_id
+GROUP BY fou_id
