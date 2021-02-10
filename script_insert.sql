@@ -409,7 +409,7 @@ create table `fournisseurs`(
                                `fou_phone` int(20) NOT NULL,
                                `fou_mail` varchar(50) NOT NULL,
                                `fou_type` varchar(50) NOT NULL,
-                               `fou_pays_id` int(10) NOT NULL,
+                               `fou_pays_id` char(2) NOT NULL,
                                `fou_emp_id` int (10)NOT NULL,
                                PRIMARY KEY (`fou_id`),
                                FOREIGN KEY (`fou_pays_id`) REFERENCES `pays` (`pays_id`),
@@ -484,6 +484,7 @@ create table `produits`(
 
 /*chargement des données de la table produit*/
 
+<<<<<<< Updated upstream
 insert  into `produits` (`pro_id`,`pro_photo`,`pro_nom`,`pro_descr`,`pro_pru`,`pro_fou_id`,`pro_cat_id`)
 values(1,'JPG','guitare flok','Tous les modèles comprennent une table en érable, un corps en acajou massif et la touche en palissandre',303.00,2,9),
        (2,'JPG','tableur','Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',507.99 ,5,12),
@@ -506,6 +507,30 @@ values(1,'JPG','guitare flok','Tous les modèles comprennent une table en érabl
        (19,'JPG','Continantal','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',349.99,3,27),
        (20,'JPG','Yous','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',359.99,1,26),
        (21,'JPG','Samsumg','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',348.90,13,19);
+=======
+insert  into `produits` (`pro_id`,`pro_photo`,`pro_ref`,`pro_nom`,`pro_descr`,`pro_pru`,`pro_fou_id`,`pro_cat_id`,`pro_stk`)
+values(1,'JPG','guifl001','guitare flok','Tous les modèles comprennent une table en érable, un corps en acajou massif et la touche en palissandre',303.00,2,9,5),
+       (2,'JPG','tab007','tableur','Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',507.99 ,5,12,2),
+       (3,'JPG','soundft','Soundcraft','Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',209.00,7,27,7),
+       (4,'JPG','flaco002','flamenco','Surtout employée par les musiciens de Flamenco, cette guitare ressemble à une guitare classique (et en a les principales caractéristiques), mais est plus fine et légèrement plus petite',308.99,3,9,2),
+       (5,'JPG','stein01','steinway','Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',28000.00,1,17,6),
+       (6,'JPG','ya009','yamaha','Surtout employée par les musiciens de Flamenco, cette guitare ressemble à une guitare classique (et en a les principales caractéristiques), mais est plus fine et légèrement plus petite',16000.00,4,20,4),
+       (7, 'JPG','pip003','piphone', 'Inspirée par le SG de 1961 la guitare électrique SG Standard 61 est dotée un corps classique en acajou dans une finition Vintage Cherry et est alimentée par des humbuckers ProBucker avec électronique CTS', 429.99, 3,10,8),
+       (8,'JPG','alt0023','Alto','enceinte SLT TS215S est une enceinte sono actives de 15 pouces et une puissance de 625 watts.La nouvelle gamme de subwoofers actifs Truesonic V2',14900.00,5,13,5),
+       (9,'JPG','pea002','Pearl','loren melato srrarra tocu tocu',420.99,1,15,10),
+       (10,'JPG','pl003','Paul','lomate lolo riimater toppama',7600.99,2,23,8),
+       (11,'JPG','casepl','caseplatine','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',1200.00,5,25,10),
+       (12,'JPG','lautau','Lauten audio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',308.00,3,19,9),
+       (13,'JPG','neu090','Neuman','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',879.00,7,20,6),
+       (14,'JPG','sopra0078','Soprano','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',209.99,6,21,5),
+       (15,'JPG','baryn','Baryton','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',879.00,7,22,4),
+       (16,'JPG','thsm','Thomson','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',209.00,4,24,11),
+       (17,'JPG','son090','Sony','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',340.00,13,20,9),
+       (18,'JPG','ya009','Yamaha','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',290.99,7,18,12),
+       (19,'JPG','cont0090','Continantal','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',349.99,3,27,15),
+       (20,'JPG','yus0010','Yous','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',359.99,1,26,8),
+       (21,'JPG','sam0021','Samsumg','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',348.90,7,19,4);
+>>>>>>> Stashed changes
 
 /* création de la table commande*/
 
