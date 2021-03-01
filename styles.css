@@ -288,6 +288,179 @@ body
     margin-top: 1855px;
     
 }
+/* fin du traitement de  la page d'accueil*/
+/*********************************************/
+.text{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 450px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(11, 11, 77);
+}
+.form{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 130px;
+    color: rgb(11, 11, 77);
+    font-family: sans-serif;
+}
+#mail{
+    background-color: rgb(209, 209, 211);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border-style: none;
+}
+.form1{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 80px;
+    color: rgb(11,11,77);
+    font-family: sans-serif;
+    justify-content: space-between;
+
+}
+#password{
+    background-color:rgb(209, 209, 211);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border-style: none;
+    top: 40px;
+
+}
+.form2{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 550px;
+    color: rgb(11, 11, 77);
+    font-family: sans-serif;
+   
+} 
+#confi{
+    background-color:  rgb(209, 209, 211);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border-style: none;
+
+}
+.text1{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 450px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(11, 11, 77);
+}
+.form3{
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 50px;
+    
+}
+#prenom{
+    background-color:  rgb(209, 209, 211);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border-style: none;
+    margin-left: 10px;
+}
+.pre{
+    margin-left: 90px;
+}
+#nom{
+    background-color:  rgb(209, 209, 211);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border-style: none;
+    margin-left: 1Opx;
+}
+.id{
+    margin-left: 120px;
+}
+#adresse{
+    background-color:  rgb(209, 209, 211);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border-style: none;
+    margin-left: 4px;
+}
+.adr{
+    margin-left: 100px;
+}
+#comple{
+    background-color:  rgb(209, 209, 211);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border-style: none;
+    margin-left: 10px;
+}
+.id1{
+    margin-left: 0px;
+}
+#codpost{
+    background-color:  rgb(209, 209, 211);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border-style: none;
+    margin-left: 10px;
+}
+.id2{
+    margin-left: 70px;
+}
+#ville{
+    background-color:  rgb(209, 209, 211);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border-style: none;
+    margin-left: 10px;
+}
+.id3{
+    margin-left: 114px;
+}
+#pays{
+    background-color:  rgb(209, 209, 211);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border-style: none;
+    margin-left: 10px;
+}
+.id4{
+    margin-left: 116px;
+}
+.image{
+    background-image: url("body/espace client/cadre numero.png");
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 500px;
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 660px;
+}
+.valide{
+    position: absolute;
+    margin-top: 1069px;
+    margin-left: 500px;
+}
+.picto{
+    position: absolute;
+    height: 900px;
+    width: 1000px;
+    margin-top: 1290px;
+    margin-left: 20px;
+}
+
+
+
 
 
 

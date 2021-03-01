@@ -1,0 +1,18 @@
+/* .red{
+    background-color: red;
+    height: 150px;
+} */
+.bande{
+    position: absolute;
+
+}
+/* bacckground du body*/
+body{
+    background-image: url("BODY/BACKGROUND/background village.png");
+}
+/* body du milieu*/
+ .milieu{
+     background-image: url("body/BACKGROUND/bande milieu.png"); 
+     position: absolute;
+    
+} 
